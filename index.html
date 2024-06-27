@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Fintrack</title>
+</head>
+
+<body>
+
+    <style>
+        .fintrack-banner-bg {
+            background-image: url('images/money.jpg');
+        }
+    </style>
+
+    <div class="container-fluid fintrack-header-bg">
+        <div class="container py-3 d-flex flex-column justify-content-center align-items-center">
+            <div class="row py-5">
+                <div class="col-3 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 fintrack-header-logo">
+                    <img class="w-50" src="images/logo-fintrack.svg" alt="">
+                </div>
+                <div class="col-4 col-sm-6 col-md-6 col-lg-8 col-xl-8 col-xxl-8">
+                    <div class="fintrack-header-itens off-991">
+                        <div class="fintrack-header-item">
+                            <a href="#nossaMissao">Nossa Missão</a>
+                        </div>
+                        <div class="fintrack-header-item">
+                            <a href="#sobre">Sobre o APP</a>
+                        </div>
+                        <div class="fintrack-header-item">
+                            <a href="#">Acesse o seu perfil</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1 col-xxl-1 block-991">
+                    <a id="btn-tgl">
+                        <span class="navbar-toggler-icon">
+                            <svg id="tgl-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+                                <path stroke="rgba(0, 0, 0)" stroke-linecap="round" stroke-miterlimit="10"
+                                    stroke-width="2" d="M4 7h22M4 15h22M4 23h22" />
+                            </svg>
+                            <svg id="close-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <path
+                                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="menu-tgl" class="container-fluid fintrack-header-bg">
+        <div class="container fintrack-header">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 block-991">
+                    <div class="fintrack-header-itens">
+                        <div class="fintrack-header-item">
+                            <a href="#nossaMissao">Nossa Missão</a>
+                        </div>
+                        <div class="fintrack-header-item">
+                            <a href="#sobre">Sobre o APP</a>
+                        </div>
+                        <div class="fintrack-header-item">
+                            <a href="#">Acesse o seu perfil</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid fintrack-banner-bg d-flex flex-column justify-content-center align-items-center">
+        <div class="container fintrack-banner">
+            <h1 class="text-end text-white">Bem-vindo ao Fintrack</h1>
+            <h3 class="text-end text-white">Seu App de controle de finanças pessoais</h3>
+        </div>
+    </div>
+
+    <div class="container-fluid fintrack-bloco1-bg">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-sm-1 col-md-1 col-lg-2 col-xl-2 col-xxl-2">
+                </div>
+                <div class="col-12 col-sm-10 col-md-10 col-lg-8 col-xl-8 col-xxl-8 fintrack-bloco1-texto">
+                    <p>
+                        <b>Bem-vindo ao Fintrack,</b>
+                        o aplicativo definitivo para o controle das suas finanças pessoais. Com o Fintrack, você tem em
+                        mãos uma ferramenta poderosa e intuitiva para gerenciar seus gastos, receitas e investimentos,
+                        permitindo que você alcance suas metas financeiras com facilidade e segurança.
+                    </p>
+                    <h2 id="nossaMissao">Nossa Missão no Fintrack</h2>
+                    <p style="padding-bottom: 50px;">
+                        <b>No Fintrack,</b>
+                        nossa missão é capacitar indivíduos a tomarem controle total de suas finanças pessoais,
+                        proporcionando ferramentas inovadoras e acessíveis para alcançar a liberdade financeira.
+                        Acreditamos que, com o suporte adequado, todos podem gerenciar seu dinheiro de forma eficaz,
+                        garantindo
+                    <div class="row mb-5">
+                        <div class="col-12 col-sm-3 col-md-2 col-lg-2 col-xl-2 col-xxl-2 fintrack-bloco1-icone">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#66ac92"
+                                    class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z" />
+                                    <path
+                                        d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div
+                            class="col-12 col-sm-9 col-md-10 col-lg-10 col-xl-10 col-xxl-10 d-flex flex-column justify-content-center align-items-center">
+                            <p>
+                                <b>Comprometidos com a Educação Financeira</b><br>
+                                Nossa missão é educar e capacitar nossos usuários para que compreendam melhor suas
+                                finanças, tomem decisões informadas e desenvolvam hábitos financeiros saudáveis.
+                                Queremos que todos tenham o conhecimento e as ferramentas necessárias para planejar e
+                                alcançar seus objetivos financeiros, sejam eles grandes ou pequenos.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-12 col-sm-3 col-md-2 col-lg-2 col-xl-2 col-xxl-2 fintrack-bloco1-icone">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#66ac92"
+                                    class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div
+                            class="col-12 col-sm-9 col-md-10 col-lg-10 col-xl-10 col-xxl-10 d-flex flex-column justify-content-center align-items-center">
+                            <p>
+                                <b>Facilitando a Gestão Financeira</b><br>
+                                Acreditamos que a gestão financeira deve ser simples e intuitiva. Por isso,
+                                desenvolvemos o Fintrack para ser uma plataforma acessível, que simplifica o
+                                monitoramento de gastos e o planejamento de metas. Nosso
+                                objetivo é proporcionar uma experiência fácil e agradável, ajudando nossos usuários a
+                                manterem suas finanças organizadas sem complicações.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-3 col-md-2 col-lg-2 col-xl-2 col-xxl-2 fintrack-bloco1-icone">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#66ac92"
+                                    class="bi bi-award-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864z" />
+                                    <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div
+                            class="col-12 col-sm-9 col-md-10 col-lg-10 col-xl-10 col-xxl-10 d-flex flex-column justify-content-center align-items-center">
+                            <p>
+                                <b>Transformando Vidas Financeiras</b><br>
+                                No Fintrack, nossa missão é transformar vidas financeiras. Queremos ajudar nossos
+                                usuários a superar desafios financeiros, evitar dívidas desnecessárias e construir um
+                                futuro próspero. Estamos dedicados a oferecer suporte contínuo e recursos valiosos que
+                                capacitam cada pessoa a atingir seus sonhos e metas financeiras.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-1 col-md-1 col-lg-2 col-xl-2 col-xxl-2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sobre" class="container-fluid bg-light py-5">
+        <div class="container fintrack-bloco2">
+            <div class="row fintrack-bloco2-linha1">
+                <div class="col-12 col-sm-12 col-md-1 col-lg-2 col-xl-2 col-xxl-2">
+                </div>
+                <div class="col-12 col-sm-12 col-md-7 col-lg-6 col-xl-6 col-xxl-6">
+                    <h2 class="off-767">Funcionalidades do Fintrack</h2>
+                </div>
+            </div>
+
+            <div class="row pt-5 mb-5">
+                <div
+                    class="d-flex justify-content-center align-items-center col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 fintrack-bloco2-linha2-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#66ac92"
+                        class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                        <path
+                            d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73z" />
+                    </svg>
+                </div>
+                <div class="col-12 col-sm-7 col-md-7 col-lg-6 col-xl-6 col-xxl-6 fintrack-bloco2-linha2-texto">
+                    <p>
+                        <span class="fw-bold">Registro de Despesas e Receitas:</span><br>
+                        O Fintrack permite que você registre todas as suas transações financeiras de maneira rápida e
+                        fácil. Categorize suas despesas e receitas para um acompanhamento detalhado e visualize onde seu
+                        dinheiro está sendo gasto.
+                    </p>
+                </div>
+                <div class="col-12 col-sm-1 col-md-1 col-lg-2 col-xl-2 col-xxl-2">
+                </div>
+            </div>
+
+            <div class="row fintrack-bloco2-linha3 mb-5">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 col-xxl-2">
+                </div>
+                <div
+                    class="block-767 d-xl-none d-flex justify-content-center align-items-center col-12 col-sm-6 col-md-6 col-lg-5 col-xl-5 col-xxl-5 fintrack-bloco2-linha3-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#66ac92"
+                        class="bi bi-palette-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.237.351-2.92.465-.527 1.42-.237 2.433.07M8 5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m4.5 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3M5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3" />
+                    </svg>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-5 col-xl-5 col-xxl-5 fintrack-bloco2-linha3-texto">
+                    <p>
+                        <span class="fw-bold">Interface Intuitiva:</span><br>
+                        O Fintrack possui uma interface amigável e fácil de usar, projetada para proporcionar a melhor
+                        experiência ao usuário. Navegue facilmente pelo aplicativo e encontre todas as informações de
+                        que precisa com rapidez e praticidade.
+                    </p>
+                </div>
+                <div
+                    class="d-xl-flex d-none justify-content-center align-items-center col-12 col-sm-6 col-md-6 col-lg-5 col-xl-5 col-xxl-5 fintrack-bloco2-linha3-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#66ac92"
+                        class="bi bi-palette-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.237.351-2.92.465-.527 1.42-.237 2.433.07M8 5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m4.5 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3M5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="row pt-5 mb-5">
+                <div
+                    class="d-flex justify-content-center align-items-center col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 fintrack-bloco2-linha2-img">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#66ac92"
+                        class="bi bi-bar-chart-line-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1z" />
+                    </svg>
+                </div>
+                <div class="col-12 col-sm-7 col-md-7 col-lg-6 col-xl-6 col-xxl-6 fintrack-bloco2-linha2-texto">
+                    <p>
+                        <span class="fw-bold">Metas Financeiras:</span><br>
+                        Defina metas financeiras e acompanhe seu progresso. Quer você esteja economizando para uma
+                        viagem, um carro novo ou uma reserva de emergência, o Fintrack ajuda você a manter o foco e a
+                        motivação para alcançar seus objetivos.
+                    </p>
+                </div>
+                <div class="col-12 col-sm-1 col-md-1 col-lg-2 col-xl-2 col-xxl-2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 fintrack-footer-redes">
+                    <a class="text-white" href="#" rel="noopener noreferrer"><img src="images/facebook.svg" alt=""></a>
+                    <a class="text-white" href="#" rel="noopener noreferrer"><img src="images/twitter.svg" alt=""></a>
+                    <a class="text-white" href="#" rel="noopener noreferrer"><img src="images/linkedin.svg" alt=""></a>
+                    <a class="text-white" href="#" rel="noopener noreferrer"><img src="images/instagram.svg" alt=""></a>
+                    <a class="text-white" href="#" rel="noopener noreferrer"><img src="images/youtube.svg" alt=""></a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 ">
+                    <div class="d-flex flex-column justify-content-center align-items-end fintrack-footer">
+                        <p><a class="text-white" href="#" rel="noopener noreferrer">Política de Privacidade</a></p>
+                        <p><a class="text-white" href="#" rel="noopener noreferrer">Termos e condições de uso do
+                                site</a>
+                        </p>
+                        <p><a class="text-white" href="#" rel="noopener noreferrer">Regulamento</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 fintrack-footer-infos">
+                    <p class="text-white">Fintrack</p>
+                    <p class="text-white">25/06/2024</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+
+        $("#btn-tgl").click(function () {
+            $("#menu-tgl").slideToggle();
+            $("#tgl-svg").toggle();
+            $("#close-svg").toggle();
+        });
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,265 @@
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+body {
+    font-family: "skolar-sans-latin", sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    color: #707070;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover {
+    font-weight: bold;
+    transition: 0.25s;
+}
+
+.fintrack-banner-bg {
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fintrack-header-itens {
+    display: flex;
+    justify-content: space-evenly;
+}
+.fintrack-header-itens a {
+    color: #000000;
+    text-decoration: none;
+}
+.fintrack-header-itens a:hover {
+    color: #66ac92;
+    font-weight: bold;
+}
+
+.fintrack-bloco1-texto h2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    color: #66ac92;
+}
+.fintrack-bloco1-texto .row {
+    padding-bottom: 25px;
+}
+
+.fintrack-bloco1-icone {
+    align-self: center;
+}
+
+.fintrack-bloco2-linha1 h2 {
+    color: #66ac92;
+    font-weight: bold;
+}
+.fintrack-bloco2-linha1 img {
+    margin-left: -10%;
+}
+
+.fintrack-bloco2-linha2-img img {
+    width: 75%;
+    float: right;
+}
+.fintrack-bloco2-linha2-texto {
+    align-self: center;
+}
+.fintrack-bloco2-linha3-texto {
+    align-self: center;
+}
+.fintrack-bloco2-linha3-texto h2 {
+    font-weight: bold;
+    width: 75%;
+    padding-bottom: 50px;
+}
+.fintrack-bloco2-linha3-img img {
+    width: 90%;
+    float: right;
+}
+
+.block-991 {
+    display: none;
+}
+.block-767 {
+    display: none;
+}
+
+#menu-tgl {
+    display: none;
+    border-top: solid 1px #000;
+}
+
+.fintrack-bloco1-icone img {
+    width: 100%;
+}
+
+.fintrack-header-itens a:hover {
+    border-top: solid 8px;
+}
+.fintrack-header-itens a {
+    padding: 0 20px;
+}
+
+@media (max-width: 1399px) {
+    a {
+        font-size: 18px;
+    }
+    p {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+
+    .fintrack-banner-bg {
+        height: 500px;
+    }
+
+    .fintrack-bloco2-linha1 img {
+        margin-left: -35%;
+    }
+}
+
+@media (max-width: 1199px) {
+    a {
+        font-size: 14px;
+    }
+    p {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+
+    .fintrack-banner-bg {
+        height: 400px;
+    }
+    .fintrack-bloco2-linha1 img {
+        margin-left: -10%;
+    }
+    .fintrack-bloco2-linha3-texto h2 {
+        width: 80%;
+    }
+}
+
+@media (max-width: 991px) {
+    a {
+        font-size: 13px;
+    }
+    p {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+
+    .off-991 {
+        display: none;
+    }
+    .block-991 {
+        display: block;
+    }
+    .navbar-toggler-icon {
+        vertical-align: super;
+    }
+    #close-svg {
+        display: none;
+    }
+    #menu-tgl {
+        display: none;
+        border-top: solid 1px #000;
+    }
+    .fintrack-bloco2-linha3-texto h2 {
+        width: 100%;
+        padding-top: 50px;
+    }
+    .fintrack-banner-bg {
+        height: 350px;
+    }
+}
+@media (max-width: 767px) {
+    a {
+        font-size: 12px;
+    }
+    p {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+
+    .off-767 {
+        display: none;
+    }
+    .block-767 {
+        display: block;
+    }
+    .fintrack-banner-bg {
+        height: 300px;
+    }
+    .fintrack-bloco2-linha1 img {
+        display: none;
+    }
+    .fintrack-bloco2-linha2-img img {
+        width: 100%;
+    }
+}
+@media (max-width: 575px) {
+    a {
+        font-size: 11px;
+    }
+    p {
+        font-size: 13px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+
+    .fintrack-banner-bg {
+        height: 250px;
+    }
+
+    .fintrack-header-itens {
+        flex-wrap: wrap;
+    }
+    .fintrack-header-item {
+        width: 100%;
+        text-align: center;
+    }
+    .fintrack-bloco1-icone {
+        align-self: center;
+        text-align: center;
+    }
+
+    .fintrack-bloco1-icone img {
+        width: 20%;
+    }
+    .fintrack-bloco2-linha2-img img {
+        width: 50%;
+        float: none;
+    }
+    .fintrack-bloco2-linha2-img {
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .fintrack-bloco2-linha2 {
+        padding-bottom: 25px;
+    }
+    .fintrack-bloco2-linha3-img img {
+        width: 75%;
+        float: none;
+    }
+    .fintrack-bloco2-linha3-img {
+        text-align: center;
+        padding-bottom: 25px;
+    }
+}
